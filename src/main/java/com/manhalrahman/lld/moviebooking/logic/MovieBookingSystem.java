@@ -37,6 +37,25 @@ public class MovieBookingSystem {
         screeningManager.addTicket(screening, ticket);
     }
 
+    // Optimistic locking
+    public synchronized Ticket bookSeatOptimistically(Screening screening, Seat seat) {
+         if(isSeatBooked(screening, seat)) {
+             throw new IllegalArgumentException("Seat already booked");
+         }
+
+         BigDecimal pricing = seat.getStrategy().getPrice();
+
+         Ticket ticket = new Ticket(screening, seat, pricing);
+         screeningManager.addTicket(screening, ticket);
+
+         return ticket;
+    }
+
+    private boolean isSeatBooked(Screening screening, Seat seat) {
+        List<Ticket> tickets = screeningManager.getTicketsForScreening(screening);
+        return tickets.stream().anyMatch(t -> t.getSeat().equals(seat));
+    }
+
     public List<Screening> getScreeningsForMovie(Movie movie) {
         return screeningManager.getScreeningForMovie(movie);
     }
