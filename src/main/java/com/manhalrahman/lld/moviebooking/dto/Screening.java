@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 @Getter
 @AllArgsConstructor
 public class Screening {
+    String id;
     Movie movie;
     Room room;
     LocalDateTime startTime;
