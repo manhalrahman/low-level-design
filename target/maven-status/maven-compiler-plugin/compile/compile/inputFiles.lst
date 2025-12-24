@@ -1,0 +1,15 @@
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/LldApplication.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/dto/Cinema.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/dto/Layout.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/dto/Movie.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/dto/Order.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/dto/Room.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/dto/Screening.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/dto/Seat.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/dto/Ticket.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/logic/MovieBookingSystem.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/logic/ScreeningManager.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/strategy/NormalPricingStrategy.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/strategy/PremiumPricingStrategy.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/strategy/PricingStrategy.java
+/Users/manhalrahman/Documents/Me stuff/Programming/low-level-design/src/main/java/com/manhalrahman/lld/moviebooking/strategy/VipPricingStrategy.java
