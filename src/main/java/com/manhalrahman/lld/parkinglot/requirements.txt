@@ -1,0 +1,21 @@
+Requirements:
+
+1. Extensible:
+    - Extensible to support different vehicle types
+    - Each parking spot accomodates only specific vehicle types. [bike can only be placed in bike spots, even if car spots are empty]
+    - Price calculation should support multiple payment strategies:
+        - Time based (with peak/non-peak pricing)
+        - Event based (concerts, weekends, etc).
+
+2. Dynamic:
+    - System/Admin should allow configuration of multiple floor and parking spots within each floor. Each slot must be mapped to vehicle type.
+    - How many gates should our system support?
+        - Many entry and exit gates.
+        - A ticket should be generated at entry point containing vehicle details, entry timestamp, etc.
+        - At exit, this ticket will be used to calculate the final cost.
+
+3. Concurrency:
+    - Are we building the system for just one parking lot or do we want to scale it to multiple in the future?
+        - Single.
+    - Do we need to ensure that the a parking spot is never shared by > 1 vehicles at time?
+        - Yes. System should use proper locking mechanism or synchronized access to parking slot assignment.
