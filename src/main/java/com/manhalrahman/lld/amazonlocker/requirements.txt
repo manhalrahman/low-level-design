@@ -1,0 +1,11 @@
+Functional Requirements:
+-Keep track of lockers of different sizes.
+- Locker assignment based on smallest available locker.
+- Customer should open their locker with access code.
+- Monitor storage costs based on customer's locker policy. Free period  for a set number of days, post that start charging daily fees based on locker size.
+If max period reached, locker is cleared for someone else.
+
+Non functional requirements:
+- Handle high volume of lockers without performance degradation.
+- Maintain high availability.
+
